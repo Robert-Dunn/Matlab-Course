@@ -7,3 +7,9 @@
 
 #compiled source
 *.exe
+
+#template file
+*~
+
+#temp files
+*.tmp
