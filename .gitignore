@@ -13,3 +13,6 @@
 
 #temp files
 *.tmp
+
+#autosave files
+*.asv
