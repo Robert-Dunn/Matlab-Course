@@ -1,0 +1,9 @@
+#packages
+*.7z
+*.zip
+
+#logs
+*.log
+
+#compiled source
+*.exe
