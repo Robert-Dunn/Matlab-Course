@@ -6,6 +6,6 @@ z = zeros(1,400);
 for i=1:1:400
    z(i) = f(x(i),y);
 end
-fplot(x,z)
+plot(x,z)
 xlabel('x');
 ylabel('z');
