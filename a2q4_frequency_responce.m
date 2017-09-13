@@ -1,3 +1,3 @@
-function [f] = a2q3_frequency_responce(R, L, C, w)
-    f = abs(R./(R +L.*w + 1./(C.*w)));
+function [f] = a2q4_frequency_responce(w)
+    f = abs(10./(10 + w + 1./(w)));
 end
