@@ -9,7 +9,13 @@
 *.exe
 
 #template file
-*~
+~
+~$a2.docx
+~$a3.docx
+~$a4.docx
+~$a5.docx
+~$a6.docx
+~$a7.docx
 
 #temp files
 *.tmp
