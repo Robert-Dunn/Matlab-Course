@@ -6,6 +6,3 @@ function [phase] = a2q5_phase(R,L,C,w)
     phase=rad2deg(atan(im./r));
 end
 %in command line
-w = linspace(.01, 100, 1000);
-semilogx(w, a2q5_phase(1, 1, 1, w))
-grid on
