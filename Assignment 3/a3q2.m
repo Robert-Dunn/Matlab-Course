@@ -1,4 +1,4 @@
-Fvec = [0.1 0 0 0.1 3 sqrt(5)];
+Fvec = [0.1 0 0 0.1 4 sqrt(5)];
 root_vec = roots(Fvec);
 for i = 1:1:size(root_vec)
     if (imag(root_vec(i)) == 0)
